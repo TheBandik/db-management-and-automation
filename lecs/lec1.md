@@ -110,7 +110,7 @@ END//
 CREATE PROCEDURE proc_INOUT (OUT var1 INT) 
 
 BEGIN 
-        SET var1 = var1 * 2;  
+        SET var1 = var1 * 2;
 END//  
 ```
 
