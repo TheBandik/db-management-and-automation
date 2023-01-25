@@ -146,7 +146,7 @@ SHOW TRIGGERS
 ```sql
 CREATE TABLE account (acct_num INT, amount DECIMAL(10,2));
 CREATE TRIGGER ins_sum BEFORE INSERT ON account
-    FOR EACH ROW SET @sum = @sum + NEW.amount;
+    FOR EACH ROW SET sum = sum + NEW.amount;
 ```
 
 Команда `CREATE TRIGGER` создает триггер `ins_sum`, который связан с таблицей `account`. Это также включает предложения, которые определяют время активации, событие вызова, и что делать с активированным триггером дальше:
