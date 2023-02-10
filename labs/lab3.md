@@ -89,5 +89,5 @@ db = DataBase()
 db.create_tables()
 # db.add_provider('Шевченко')
 # db.get_providers(2) 
-db.add_product('Арбузы', 'Файзулаев')
+db.add_product('Арбузы', 'Файзуллаев')
 ```
