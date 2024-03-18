@@ -120,7 +120,7 @@ Microsoft SQL Server, Oracle, Firebird, PostgreSQL, InterBase, MySQL и др.
 ##### Linux
 
 1. Откройте терминал и выполните команду sudo apt update для обновления списка пакетов
-2. Затем выполните команду sudo apt install mysql-server для установки сервера MySQL
+2. Затем выполните команду sudo apt install mariadb-server для установки сервера MySQL
 3. Во время установки вам будет предложено ввести пароль для учетной записи root MySQL. Введите пароль и подтвердите его
 4. После установки запустите сервер MySQL командой sudo systemctl start mysql. Эта команда также запустит службу MySQL при загрузке системы
 5. Проверьте статус сервера MySQL, выполнив команду sudo systemctl status mysql. Если сервер работает, вы увидите сообщение "active (running)"
