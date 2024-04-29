@@ -5,6 +5,8 @@
 
 ## Семестр 2
 
+##### [Итоговый тест](https://forms.gle/3L7X8K7Gvotqwuyf9)
+
 #### Процедуры
 
 ##### [Функции Python](sem2/lecs/lec0.ipynb)
